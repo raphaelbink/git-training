@@ -6,4 +6,6 @@ data = pd.read_csv('../data/factory_data.csv')
 
 print(data.describe())
 print(data.shape)
-print(data['humidity'].data(df['linespeed']))
+print(data['humidity'].corr(data['linespeed']))
+
+print("hi there")
